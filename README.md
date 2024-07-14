@@ -13,4 +13,3 @@ exiftool nombrearchivo.jpg /ruta/archivo
 ```bash
 exiftool -all= -r /path/to/files
 ```
-```
