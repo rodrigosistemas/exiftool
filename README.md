@@ -15,3 +15,6 @@ exiftool nombrearchivo.jpg /ruta/archivo
 ```bash
 exiftool -all= -r /path/to/files
 ```
+```bash
+exiftool -all= -overwrite_original nombre_del_archivo
+```
