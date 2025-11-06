@@ -1,18 +1,21 @@
 # ExifTool
 
-ExifTool es una herramienta para leer, escribir y editar metadatos en archivos.
+ExifTool is a tool to read, write, and edit metadata in files.
 
-<img src="https://github.com/rodrigosistemas/exiftool/blob/main/img/exif.png" alt="nmap" width="500"/>
+<img src="https://github.com/rodrigosistemas/exiftool/blob/main/img/exif.png" alt="exif" width="500"/>
 
-## Revisar información de metadatos de un archivo
+## View metadata information of a file
+
 ```bash
-exiftool nombrearchivo.jpg /ruta/archivo
+exiftool filename.jpg /path/to/file
 ```
 
-## Eliminar metadatos de un archivo
+## Remove metadata from a file
+
 ```bash
 exiftool -all= -r /path/to/files
 ```
+
 ```bash
-exiftool -all= -overwrite_original nombre_del_archivo
+exiftool -all= -overwrite_original filename
 ```
